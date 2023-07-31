@@ -71,25 +71,38 @@ Project utilizes defined input parameters from third-party `http://api.idexonlin
 
 ### Run front-end project
 1. Go to front-end directory
-`cd ./diamond-analyser-fe`
-2. Run `yarn install` to install dependencies 
+```bash
+$ cd ./diamond-analyser-fe
+````
+2. Run to install dependencies
+```bash
+$ yarn install
+````
 3. Copy/paste `.env.example` and rename to `.env` in order to have environment variables during project running. Update variables in case of need. 
 4. In the project directory, you can run:
-`yarn start`
+```bash
+$ yarn start
+````
 
 ### Run back-end project
 1. Go to back-end directory
-   `cd ./diamond-analyser-be`
-2. Run `yarn install` to install dependencies
+```bash
+$ cd ./diamond-analyser-be
+````
+2. Run to install dependencies
+```bash
+$ yarn install
+````
 3. Copy/paste `.env.example` and rename to `.env` in order to have environment variables during project running. Update variables in case of need.
 4. In the project directory, you can run:
-   `yarn start`
+```bash
+$ yarn start
+````
 
 ### Run back-end project tests
 1. Go to back-end directory
    `cd ./diamond-analyser-be`
 2. Type
 ```bash
-# unit tests
 $ yarn run test
 ```
